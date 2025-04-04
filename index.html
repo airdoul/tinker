@@ -10,9 +10,10 @@
 <body class="text-lg">
     <section class="bg-[url(../assets/img/banner_bg.jpg)] h-[100vh] text-white">
         <header class="flex justify-center">
-            <section class="w-[80vw] flex items-center justify-between py-5">
+            <section class="w-[80vw] flex items-center max-lg:justify-between lg:justify-around py-5">
             <p class="text-4xl font-extrabold uppercase first-letter:text-[#f3c35d]">tinker</p>
-                <ul class="w-[50%] flex justify-around ">
+                <p class="lg:hidden"><i class="fa-duotone fa-solid fa-bars fa-2xl" style="--fa-secondary-color:#f3c35d;"></i></p> 
+                <ul class="max-lg:hidden w-[50%] flex justify-around ">
                     <li><a href=""></a>HOME</li>
                     <li><a href=""></a>ABOUT US</li>
                     <li><a href=""></a>PORTFOLIO</li>
@@ -23,15 +24,15 @@
         </header>
         <section class="h-[80vh] w-[100vw]">
             <div class="h-[100%] flex flex-col justify-center items-center text-center gap-6">
-                <h1 class="capitalize text-6xl">awesome <span class="uppercase text-[#39c5c7]">html5</span> template <span class="uppercase text-[#f19436]">tinker</span></h1>
-                <p class="w-[50%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad esse autem alias deserunt. Officia fuga impedit neque similique et quas commodi accusantium, beatae, facere obcaecati minus debitis voluptate consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati iste. </p>
+                <h1 class="capitalize lg:text-6xl text-3xl max-sm:text-xl">awesome <span class="uppercase text-[#39c5c7]">html5</span> template <span class="uppercase text-[#f19436]">tinker</span></h1>
+                <p class="sm:w-[50%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad esse autem alias deserunt. Officia fuga impedit neque similique et quas commodi accusantium, beatae, facere obcaecati minus debitis voluptate consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati iste. </p>
                 <a class="bg-white rounded-3xl text-black font-semibold p-3 duration-300 ease-in-out hover:brightness-200 hover:text-[#f19436]" href="">LET'S START</a>
             </div>
         </section>
     </section>
-    <section class="h-[80vh] w-[100vw] bg-[url(../assets/img/about-bg.jpg)] bg-cover text-white">
-        <div class="flex items-center justify-center gap-5 p-20 text-center">
-            <div class="h-[60vh] w-[20vw] flex flex-col items-center justify-between">
+    <section class="lg:h-[80vh] w-[100vw] bg-[url(../assets/img/about-bg.jpg)] bg-cover text-white">
+        <div class="flex max-lg:flex-col items-center justify-center gap-5 lg:p-20 text-center">
+            <div class="lg:h-[60vh] lg:w-[20vw] flex flex-col items-center justify-between max-lg:gap-4 max-lg:p-10">
                 <div class="flex justify-center items-center w-[7rem] h-[7rem] bg-[#f5c45d] rounded-full border-2 border-white">
                     <img class="" src="assets/img/service_icon_01.png" alt="logo cloche">
                 </div>
@@ -39,7 +40,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam illum quia commodi hic odit aspernatur nihil numquam</p>
                 <a class="uppercase bg-[#3dc1cd] p-3 rounded-3xl font-semibold duration-300 ease-in-out hover:brightness-125 hover:text-[#f19436]" href="">continue reading</a>
             </div>
-            <div class="h-[60vh] w-[20vw] flex flex-col items-center justify-between">
+            <div class="lg:h-[60vh] lg:w-[20vw] flex flex-col items-center justify-between max-lg:gap-4 max-lg:p-10">
                 <div class="flex justify-center items-center w-[7rem] h-[7rem] bg-[#f5c45d] rounded-full border-2 border-white">
                     <img class="" src="assets/img/service_icon_02.png" alt="logo cloche">
                 </div>
@@ -47,7 +48,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam illum quia commodi hic odit aspernatur nihil numquam</p>
                 <a class="uppercase bg-[#3dc1cd] p-3 rounded-3xl font-semibold duration-300 ease-in-out hover:brightness-125 hover:text-[#f19436]" href="">continue reading</a>
             </div>
-            <div class="h-[60vh] w-[20vw] flex flex-col items-center justify-between">
+            <div class="lg:h-[60vh] lg:w-[20vw] flex flex-col items-center justify-between  max-lg:gap-4 max-lg:p-10">
                 <div class="flex justify-center items-center w-[7rem] h-[7rem] bg-[#f5c45d] rounded-full border-2 border-white">
                     <img class="" src="assets/img/service_icon_03.png" alt="logo cloche">
                 </div>
@@ -55,7 +56,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam illum quia commodi hic odit aspernatur nihil numquam</p>
                 <a class="uppercase bg-[#3dc1cd] p-3 rounded-3xl font-semibold duration-300 ease-in-out hover:brightness-125 hover:text-[#f19436]" href="">continue reading</a>
             </div>
-            <div class="h-[60vh] w-[20vw] flex flex-col items-center justify-between">
+            <div class="lg:h-[60vh] lg:w-[20vw] flex flex-col items-center justify-between max-lg:gap-4 max-lg:p-10">
                 <div class="flex justify-center items-center w-[7rem] h-[7rem] bg-[#f5c45d] rounded-full border-2 border-white">
                     <img class="" src="assets/img/service_icon_04.png" alt="logo cloche">
                 </div>
@@ -66,9 +67,9 @@
         </div>
     </section>
     <section>
-        <div class="w-[100vw] flex">
-            <div class="w-[35vw] flex items-center justify-center text-white bg-[#3dc1cd]">
-                <div class="w-[65%]">
+        <div class="w-[100vw] flex max-lg:flex-col">
+            <div class="lg:w-[35vw] flex items-center justify-center text-white bg-[#3dc1cd]">
+                <div class="lg:w-[65%] p-5">
                     <h2 class="uppercase text-3xl font-semibold border-b py-10">our gallery</h2>
                     <p class="pt-5">Chia hot chicken la croix ug dreamcatcher man bun squi vaporware kinfolk.</p>
                     <ul class="font-semibold pt-16 flex flex-col gap-5">
@@ -80,21 +81,21 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-[65vw] ">
+            <div class="lg:w-[65vw] ">
                 <div class="flex flex-wrap p-10">
-                    <img class="w-[40%]" src="assets/img/portfolio_big_item_01.jpg" alt="">
-                    <img class="w-[40%]" src="assets/img/portfolio_big_item_02.jpg" alt="">
-                    <img class="w-[40%]" src="assets/img/portfolio_big_item_03.jpg" alt="">
-                    <img class="w-[40%]" src="assets/img/portfolio_big_item_04.jpg" alt="">
-                    <img class="w-[40%]" src="assets/img/portfolio_big_item_05.jpg" alt="">
-                    <img class="w-[40%]" src="assets/img/portfolio_big_item_06.jpg" alt="">
+                    <img class="lg:w-[40%]" src="assets/img/portfolio_big_item_01.jpg" alt="">
+                    <img class="lg:w-[40%]" src="assets/img/portfolio_big_item_02.jpg" alt="">
+                    <img class="lg:w-[40%]" src="assets/img/portfolio_big_item_03.jpg" alt="">
+                    <img class="lg:w-[40%]" src="assets/img/portfolio_big_item_04.jpg" alt="">
+                    <img class="lg:w-[40%]" src="assets/img/portfolio_big_item_05.jpg" alt="">
+                    <img class="lg:w-[40%]" src="assets/img/portfolio_big_item_06.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="h-[50vh] bg-[#f5c45d] flex items-center justify-center text-white">
-            <div class="h-[50%] w-[35vw] flex flex-col justify-center items-center text-center gap-7">
-                <p class="bg-white rounded-md p-7 text-[#8f8f8f] italic">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci unde asperiores quisquam doloremque velit magni, illum maiores quos. Nostrum nihil, cupiditate expedita laboriosam pariatur hic suscipit. Veritatis libero neque natus."</p>
+    <section class="lg:h-[50vh] bg-[#f5c45d] flex items-center justify-center text-white">
+            <div class="h-[50%] w-[60%] lg:w-[35vw] flex flex-col justify-center items-center text-center gap-7 p-5">
+                <p class="bg-white rounded-md p-5 text-[#8f8f8f] italic">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci unde asperiores quisquam doloremque velit magni, illum maiores quos. Nostrum nihil, cupiditate expedita laboriosam pariatur hic suscipit. Veritatis libero neque natus."</p>
                 <div>
                     <h3 class="capitalize text-2xl font-bold">Richard Beal</h3>
                     <p class="font-medium">CSS Developer</p>
@@ -108,9 +109,9 @@
             </div>  
     </section>
     <section>
-        <div class="w-[100vw] flex bg-[url(../assets/img/blog-bg.jpg)] bg-cover">
-            <div class="w-[35vw] flex justify-end text-white p-10 bg-black bg-opacity-40">
-                <div class="w-[65%]">
+        <div class="w-[100vw] flex max-lg:flex-col max-lg:justify-center max-lg:items-center bg-[url(../assets/img/blog-bg.jpg)] bg-cover">
+            <div class="lg:w-[35vw] flex justify-end text-white p-10 bg-black bg-opacity-40">
+                <div class="lg:w-[65%]">
                     <h2 class="uppercase text-3xl font-semibold border-b py-10">our blog posts</h2>
                     <p class="pt-5">chia hot chicken la croix ugh dreamcatcher man bun squid vaporware kinfolk.</p>
                     <ul class="flex flex-col  font-semibold pt-16 gap-10 text-center capitalize">
@@ -121,8 +122,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-[65vw] ">
-                <div class="w-[85%] flex flex-col p-10">
+            <div class="lg:w-[65vw] ">
+                <div class="lg:w-[85%] flex flex-col p-10">
                     <img src="assets/img/blog_item_01.jpg" alt="">
                     <div class="bg-white p-5 pb-10">
                         <h3 class="font-bold text-2xl">Lorem ipsum dolor sit amet</h3>
@@ -133,8 +134,8 @@
             </div>
         </div>
     </section>
-    <section class="h-[50vh] bg-[#585f65] flex items-center justify-center text-white text-center">
-        <div class="h-[50%] w-[35vw] flex flex-col justify-center items-center text-center gap-4">
+    <section class="lg:h-[50vh] bg-[#585f65] flex items-center justify-center text-white text-center p-5">
+        <div class="h-[50%] w-[80%] lg:w-[35vw] flex flex-col justify-center items-center text-center gap-4">
             <h2 class="uppercase text-3xl font-semibold border-b py-10 px-20">contact us</h2>
             <p class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi vitae accusantium voluptatem unde ipsum, et sit mollitia ratione, quaerat odio facilis! Dolores ut a asperiores praesentium facere ipsa repudiandae?</p>
             <a class="uppercase bg-[#3dc1cd] py-3 px-5 rounded-3xl font-semibold duration-300 ease-in-out hover:brightness-125 hover:text-[#f19436]" href="">send us a message</a>
@@ -143,34 +144,36 @@
     <section class="h-[50vh w-[100vw]]">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8082065472327!2d103.86056187581664!3d1.2893041617657102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a936c551cd%3A0x7fb4e58ad9cd826e!2sSingapore%20Flyer!5e0!3m2!1sfr!2sfr!4v1743757673127!5m2!1sfr!2sfr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-    <footer class="bg-[#373b3c] text-white flex justify-around items-center py-10">
-        <div>
-            <p class="text-3xl font-extrabold uppercase first-letter:text-[#f3c35d] pb-4">tinker</p>
-            <p class="capitalize">Copyright &#169 2017 you company | design: <span class="text-[#f3c35d] lowercase">templatemo</span></p>
-        </div>
-        <div class="capitalize font-semibold">
-            <h3 class="uppercase text-xl pb-7">Location</h3>
-            <div class="flex">
-                <p class="pr-5">30 Raffles ave,<br> singapore 039803</p>
-                <p class="border-l-2 pl-5">1 republic blvd,<br> singapore 038975</p>
+    <footer class="bg-[#373b3c] text-white flex sm:flex-col lg:justify-around items-center py-10 px-5 max-lg:flex-col max-lg:gap-10">
+        <div class="flex sm:flex-collg:justify-around lg:items-center py-10 max-lg:flex-col gap-10">
+            <div class="max-lg:flex  max-lg:gap-5 flex-col">
+                <p class="text-3xl font-extrabold uppercase first-letter:text-[#f3c35d] pb-4">tinker</p>
+                <p class="capitalize">Copyright &#169 2017 you company | design: <span class="text-[#f3c35d] lowercase">templatemo</span></p>
             </div>
-        </div>
-        <div>
-            <h3 class="uppercase text-xl font-semibold pb-7">more info</h3>
+            <div class="capitalize font-semibold">
+                <h3 class="uppercase text-xl pb-7 max-lg:border-b">Location</h3>
+                <div class="flex max-lg:pt-5">
+                    <p class="pr-5">30 Raffles ave,<br> singapore 039803</p>
+                    <p class="border-l-2 pl-5">1 republic blvd,<br> singapore 038975</p>
+                </div>
+            </div>
             <div>
-                <p><span class="font-semibold">Phone:</span> 010-020-0340</p>
-                <p><span class="font-semibold">Email:</span> tk@company.co</p>
+                <h3 class="uppercase text-xl font-semibold pb-7 max-lg:border-b">more info</h3>
+                <div class=" max-lg:pt-5">
+                    <p><span class="font-semibold">Phone:</span> 010-020-0340</p>
+                    <p><span class="font-semibold">Email:</span> tk@company.co</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <h3 class="uppercase text-xl font-semibold pb-7">get social with us</h3>
-            <ul class="flex gap-3">
-                <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-facebook-f fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
-                <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-twitter fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li> 
-                <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-linkedin-in fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
-                <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-the-red-yeti fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
-                <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-dribbble fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
-            </ul>
+            <div>
+                <h3 class="uppercase text-xl font-semibold pb-7 max-lg:border-b">get social with us</h3>
+                <ul class="max-sm:w-[90vw] flex max-sm:flex-wrap gap-3 max-lg:pt-5">
+                    <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-facebook-f fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
+                    <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-twitter fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li> 
+                    <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-linkedin-in fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
+                    <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-the-red-yeti fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
+                    <li class="flex justify-center items-center w-[2rem] h-[2rem] bg-white rounded-full"><a class="fa-brands fa-dribbble fa-2s duration-300 ease-in-out hover:text-blue-700 hover:text-3xl text-[#373b3c]" href=""></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 
